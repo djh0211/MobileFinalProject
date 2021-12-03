@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home_page"
+        android:title="Home"
+        android:icon="@drawable/house" />
+
+    <item android:id="@+id/exercise_page"
+        android:title="Exercise"
+        android:icon="@drawable/exercise" />
+
+    <item android:id="@+id/cooking_page"
+        android:title="Cooking"
+        android:icon="@drawable/cooking" />
+
+    <item android:id="@+id/test_page"
+        android:title="Test"
+        android:icon="@drawable/test" />
+    <item android:id="@+id/usertimer_page"
+        android:title="UserTimer"
+        android:icon="@drawable/edit" />
+</menu>

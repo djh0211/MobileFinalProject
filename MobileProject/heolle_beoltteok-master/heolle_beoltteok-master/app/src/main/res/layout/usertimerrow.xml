@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itemTime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="TextView" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/speakBtn2"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="70dp"-->
+    <!--            android:layout_margin="20dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:backgroundTint="#FFFFFF"-->
+    <!--            android:scaleType="fitCenter"-->
+    <!--            app:srcCompat="@drawable/rumor" />-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/answerBtn3"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="70dp"-->
+    <!--            android:layout_margin="20dp"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:backgroundTint="#FFFFFF"-->
+    <!--            android:scaleType="fitCenter"-->
+    <!--            app:srcCompat="@drawable/confirm" />-->
+
+    <!--    </LinearLayout>-->
+</LinearLayout>

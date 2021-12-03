@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "566904962489",
+    "project_id": "heolle-beoltteok",
+    "storage_bucket": "heolle-beoltteok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566904962489:android:9eca9d0df311ad8af28a68",
+        "android_client_info": {
+          "package_name": "com.example.heolle_beoltteok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566904962489-spm7knqaer886flik9roef4mhhjsebo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAWrWGojkfZao159qtovv_rhVRlRNcrcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566904962489-spm7knqaer886flik9roef4mhhjsebo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

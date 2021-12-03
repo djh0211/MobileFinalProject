@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/cookingRowLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp">
+    <ImageView
+        android:id="@+id/CookingImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/common_google_signin_btn_icon_dark" />
+
+    <TextView
+        android:id="@+id/CookingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cooking"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시간"
+        android:textAlignment="center"
+        android:id="@+id/CookingTime"
+        android:textSize="20dp"
+        android:gravity="center_horizontal" />
+</LinearLayout>

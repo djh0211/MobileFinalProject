@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="운동 이름"
+            android:textSize="17sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="112dp" />
+        <EditText
+            android:id="@+id/addExerciseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="추가할 운동의 이름"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="112dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="운동 시간"
+            android:textSize="17sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <EditText
+            android:id="@+id/addExerciseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="운동 시간"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="211dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="쉬는 시간"
+            android:textSize="17sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <EditText
+            android:id="@+id/addRelaxingTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="쉬는 시간"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="211dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/addExAddButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#f5f5dc"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+        <Button
+            android:id="@+id/addExCancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:backgroundTint="#f5f5dc"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="342dp" />
+    </LinearLayout>
+
+</LinearLayout>

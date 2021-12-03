@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="요리 이름"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="112dp" />
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/deleteDialogCookingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:textSize="16dp"
+            android:hint="삭제할 요리의 이름"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="112dp" />
+        <Button
+            android:layout_weight="0.5"
+            android:id="@+id/deleteConfirmBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:backgroundTint="#f5f5dc"
+            android:textColor="@color/black"
+            android:text="확인" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/deleteImageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="23dp"
+            android:text="요리 사진"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <ImageView
+            android:id="@+id/deleteDialogCookingImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="130dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/deleteDialogdeleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#f5f5dc"
+            android:textColor="@color/black"
+            android:text="삭제"
+            android:enabled="false"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+        <Button
+            android:id="@+id/deleteDialogCancleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:backgroundTint="#f5f5dc"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="342dp" />
+    </LinearLayout>
+
+</LinearLayout>
